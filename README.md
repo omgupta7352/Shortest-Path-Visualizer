@@ -1,6 +1,8 @@
 # Shortest Path Visualizer
 
-![SHORTEST PATH FINDER](pathfinder.png)
+![SHORTEST PATH VISUALIZER](path1.png)
+![](path2.png)
+![](path3.png)
 
 **Shortest Path  Visualizer** is a web application designed to visualize pathfinding algorithms on a grid. This is a visual tool built using HTML, CSS, and JavaScript that allows users to find the shortest path between two points on a grid using various pathfinding algorithms. It's an educational and interactive way to understand how algorithms like Dijkstra, A*, and others work.
 
