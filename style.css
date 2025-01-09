@@ -1,0 +1,356 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  body {
+    background-color: rgb(52, 49, 49);
+  }
+  header {
+    background-color: rgb(2, 0, 1);
+    width: 100%;
+  }
+  nav {
+    color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 36% 58%;
+    grid-template-columns: 36% 58%;
+    -webkit-column-gap: 6%;
+    column-gap: 6%;
+    padding: 3% 5%;
+  }
+
+/*table*/
+
+
+  table{
+    height: 70%;
+    width: 75%;
+    border: 3px solid black;
+    margin: 30px auto;
+    background-color: #9fd3c7;
+    border-collapse: collapse;
+  }
+
+  #mytable {
+    border: 2px solid rgb(46, 42, 42);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tbody{
+    height: 100%;
+    width: 100%;
+}
+
+td{
+    height: 1%;
+    width: 1%;
+    padding: 1%;
+    background-color: #eedddd;
+    border: 2px solid gray;
+}
+
+/*
+  table {
+    border: 3px solid black;
+    margin: 20px auto;
+    background-color: #9fd3c7;
+    border-collapse: collapse;
+}
+
+#mytable {
+    border: 2px solid rgb(46, 42, 42);
+    border-style: solid;
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+  /*
+      th {
+          height:5px;
+          width:5px;
+          border: 1px solid Gray;
+          border-collapse: collapse;
+          padding: 9px;
+      }
+      
+      td {
+        height: 5px;
+        width: 5px;
+        background-color: #eedddd;
+        border: 1px solid gray;
+        padding: 9px;
+        border-collapse: collapse;
+    }
+
+      td:active {
+          background-color: black;
+      }*/
+
+
+  /*left*/
+  
+  nav .header_left .alg button {
+    background-color: transparent;
+    border-width: 2px;
+    border-radius: 5%;
+    border-color: violet;
+    color: violet;
+    outline: none;
+    padding: 2%;
+    font-size: large;
+    margin: 2% 1%;
+  }
+  
+  nav .header_left .alg button:hover {
+    background-color: violet;
+    color: white;
+    cursor: pointer;
+  }
+  
+  /*right*/
+  nav .header_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  
+  nav .header_right .nav-heading {
+    display: inline-block;
+    font-size: xxx-large;
+    padding: 3% 0%;
+  }
+  
+  nav .header_right .algos {
+    display: -ms-grid;
+    display: grid;
+    /*-ms-grid-columns: (16.66667%)[6];*/
+    /*grid-template-columns: repeat(6, 16.66667%);*/
+    grid-template-columns: repeat(5, 20%);
+    place-content: center;
+    padding: 2% 0%;
+  }
+  
+  nav .header_right .algos button {
+    background-color: transparent;
+    border-width: 2px;
+    border-radius: 5%;
+    border-color: violet;
+    color: violet;
+    outline: none;
+    padding: 3% 0;
+    font-size: large;
+    margin: 3%;
+  }
+  #b1 {
+    border-color: blue;
+    color: blue;
+    cursor: pointer;
+  }
+  #b2 {
+    border-color: red;
+    color: red;
+    cursor: pointer;
+  }
+  #b3 {
+    border-color: #9fd3c7;
+    color: #9fd3c7;
+    cursor: pointer;
+  }
+  #b4 {
+    border-color: #f5dd7b;
+    color: #f5dd7b;
+    cursor: pointer;
+  }
+  #b5 {
+    border-color: violet;
+    color: violet;
+    cursor: pointer;
+  }
+  #b6 {
+    border-color: orange;
+    color: orange;
+    cursor: pointer;
+  }
+  #b7 {
+    border-color: #a3de83;
+    color: #a3de83;
+    cursor: pointer;
+  }
+  #b8 {
+    border-color: #a96851;
+    color: #a96851;
+    cursor: pointer;
+  }
+  #b9 {
+    border-color: #f7ca44;
+    color: #f7ca44;
+    cursor: pointer;
+  }
+  #b10 {
+    border-color: #cf4647;
+    color: #cf4647;
+    cursor: pointer;
+  }
+  nav .header_right .algos button:hover {
+    background-color: violet;
+    color: white;
+    cursor: pointer;
+  }
+  #b1:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+  #b2:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+  }
+  #b3:hover {
+    background-color: #9fd3c7;
+    color: white;
+    cursor: pointer;
+  }
+  #b4:hover {
+    background-color: #f5dd7b;
+    color: white;
+    cursor: pointer;
+  }
+  #b5:hover {
+    background-color: violet;
+    color: white;
+    cursor: pointer;
+  }
+  #b6:hover {
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+  }
+  #b7:hover {
+    background-color: #a3de83;
+    color: white;
+    cursor: pointer;
+  }
+  #b8:hover {
+    background-color: #a96851;
+    color: white;
+    cursor: pointer;
+  }
+  #b9:hover {
+    background-color: #f7ca44;
+    color: white;
+    cursor: pointer;
+  }
+  #b10:hover {
+    background-color: #cf4647;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 480px) {
+    header {
+      background-color: rgb(2, 0, 1);
+      width: 100%;
+    }
+    nav {
+      display: block;
+    }
+    nav .header_right .nav-heading {
+      text-align: center;
+      font-size: xx-large;
+    }
+    nav .header_right .algos {
+      display: flex;
+      flex-wrap: wrap;
+      place-content: center;
+      padding: 5% 0%;
+    }
+    nav .header_right .algos button {
+      width: 70%;
+      text-align: center;
+      font-size: large;
+      margin: 5%;
+      place-content: center;
+    }
+
+    #mytable{
+        height: 40%;
+        width: 98%;
+      }
+  }
+  
+  @media (min-width: 480px) and (max-width: 600px) {
+    nav .header_right .nav-heading {
+      display: inline-block;
+      font-size: xx-large;
+      padding: 3% 0%;
+    }
+    nav .header_right .algos {
+      display: flex;
+      flex-wrap: wrap;
+      place-content: center;
+      padding: 5% 0%;
+    }
+    nav .header_right .algos button {
+      width: 45%;
+      text-align: center;
+      font-size: medium;
+      margin: 2%;
+      place-content: center;
+    }
+
+    #mytable{
+        height: 40%;
+        width: 96%;
+      }
+  }
+  
+  @media (min-width: 600px) and (max-width: 750px) {
+    nav .header_right .nav-heading {
+      display: inline-block;
+      font-size: xx-large;
+      padding: 3% 0%;
+    }
+    nav .header_right .algos {
+      display: flex;
+      flex-wrap: wrap;
+      place-content: center;
+      padding: 5% 0%;
+    }
+    nav .header_right .algos button {
+      width: 27%;
+      text-align: center;
+      font-size: medium;
+      margin: 2%;
+      place-content: center;
+    }
+
+    #mytable{
+        height: 45%;
+        width: 90%;
+      }
+  }
+  
+  @media (min-width: 750px) and (max-width: 960px) {
+
+    #mytable{
+        height: 60%;
+        width: 90%;
+      }
+
+    nav .header_right .algos {
+      grid-template-columns: repeat(4, 25%);
+    }
+  }
+  

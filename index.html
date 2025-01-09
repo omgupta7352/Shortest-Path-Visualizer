@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHORTEST PATH VISUALIZER</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="header_left">
+          <div class="alg">
+            <button onclick="start()" id="b10">Start Point</button>
+            <button onclick="stop()" id="b5">End Point</button>
+            <button onclick="reset()" id="b3">Reset</button>
+          </div>
+          <div class="alg">
+            <button onclick="remove()" id="b7">Remove blocks</button>
+            <button onclick="block()" id="b8">Select blocks</button>
+          </div>
+          <div class="alg">
+            <button onclick="ranblock()" id="b9">
+              Generate Random Blocks !
+            </button>
+          </div>
+        </div>
+
+        <div class="header_right">
+          <p class="nav-heading">SHORTEST PATH VISUALIZER</p>
+
+          <div class="algos">
+            <button onclick="astar_algo()" id="b2">A-star</button>
+            <button onclick="bfs_algo()" id="b4">BFS</button>
+            <button onclick="dfs_algo()" id="b1">DFS</button>
+            <button onclick="dijkstra_algo()" id="b6">Dijkstra</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <script src="main.js"></script>
+
+    <script src="aStar.js"></script>
+    <script src="bfs.js"></script>
+    <script src="dfs.js"></script>
+    <script src="dijkstra.js"></script>
+  </body>
+</html>
